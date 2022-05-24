@@ -17,56 +17,41 @@
   box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
-.fotocard1 {
+.fotocard{
+  display:inline-block;
+  margin: 110px;
+}
+
+.foto1{
   position: absolute;
+  z-index: 10;
+  top: 350px;
+  left: 220px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.foto2{
+  position: absolute;
+  top: 350px;
+  left: 810px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.box1{
+  background-color: #F3F3F3 ;
+  position: absolute;
+  padding: 30px;
   width: 374px;
-  height: 217.81px;
-  left: 112px;
-  top: 225.11px;
-  border-radius: 16px 16px 0px 0px;
-}
-
-.foto1 {
-  position: absolute;
-  width: 135.43px;
-  height: 133.17px;
-  left: 231.57px;
-  top: 369.57px;
-}
-
-.titulocard {
-  position: relative;
-  bottom: 60px;
-  text-align: center;
-  height: 30px;
-  font-weight: bold;
-}
-
-.descricao {
-  position: absolute;
-  top: 140px;
-}
-
-.box {
-  position: absolute;
-  width: 370px;
-  padding: 150px 20px;
   height: 379.2px;
   left: 112px;
-  top: 441.8px;
+  top: 420px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.botao {
-  background-color: #00669f;
-  color: white;
-  padding: 10px;
-  width: 200px;
-  left: 60px;
-  position: relative;
-  bottom: -100px;
-  text-align: center;
-}
+
+
 
 .rodape {
   background-color: #00669f;
