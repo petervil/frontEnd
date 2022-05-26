@@ -1,0 +1,91 @@
+*{
+  font-family: "Arial";
+  --cor-topo:#222222
+}
+
+
+.menu{
+  background-color: var(--cor-topo);
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo__pizza__topo{
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.lista1{
+  margin: 20px;
+  line-height: 30px;
+  padding: 15px;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: end;
+  gap:20px;
+  list-style-type: none; 
+}
+
+.lista2{
+display: flex;
+align-items: center;
+margin: 20px;
+line-height: 30px;
+}
+
+.titulo1{
+  position: relative;
+  bottom: 375px;
+  text-align: center;
+  font-size: 23px;
+  color:#FC200C 
+}
+
+.titulo2{
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+  color:#FC200C 
+}
+
+span{
+  color: #FFFFFF;
+}
+
+.cartao{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagem__delivery{
+  position:relative
+}
+
+
+
+
+.cartao2{
+  width: 500px;
+}
+
+
+.sabores{
+
+list-style-type: decimal;
+flex-wrap: wrap;
+left: 20px;
+}
+
+.rodape{
+  list-style-type: none;
+}
+
+.logo__pizza__rodape{
+  position:absolute;
+  top: 600px;
+  left: 1250px;
+}
